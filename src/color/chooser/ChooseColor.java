@@ -144,7 +144,7 @@ public class ChooseColor extends JFrame implements ActionListener {
     /**
      * Method untuk action pada button pilih color
      *
-     * @param e
+     * @param e event to select the color
      */
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -188,7 +188,7 @@ public class ChooseColor extends JFrame implements ActionListener {
     /**
      * Main menu
      *
-     * @param args
+     * @param args for this main method
      */
     public static void main(String[] args) {
         ChooseColor choosolor = new ChooseColor();
